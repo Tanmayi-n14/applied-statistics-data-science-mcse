@@ -54,7 +54,6 @@ applied-statistics-data-science-mcse/
 │       ├── BMW_Sales_Problem_Statement.docx
 │       └── data/ (BMW-sales-data.csv)
 │
-├── curriculum-documents/                         # Course lab manual and assignment guidelines
 ├── .gitignore
 └── README.md
 ```
