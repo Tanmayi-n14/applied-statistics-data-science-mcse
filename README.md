@@ -39,20 +39,20 @@ applied-statistics-data-science-mcse/
 │   └── Simple_Linear_Regression_and_Pearson_Correlation.ipynb # Ordinary Least Squares & Pearson's r
 │
 ├── 06-case-studies-and-projects/
-│   ├── bmw-sales-datathon/                       # 🚗 Datathon Team Project
-│   │   ├── BMW_Sales_Analysis_and_Modeling.ipynb # End-to-end data processing, EDA & price regression
-│   │   ├── BMW_Sales_Datathon_Report.pdf         # Comprehensive project findings & business insights
-│   │   ├── BMW_Sales_Problem_Statement.docx
-│   │   └── data/ (BMW-sales-data.csv)
-│   ├── placement-salary-prediction-orange/       # 💼 Orange Problem Case Study
+│   ├── level-1-banana-covid19-time-series/       # 🦠 Banana Problem (Level 1)
+│   │   ├── Covid19_Time_Series_Analysis.ipynb    # Pandemic trajectory & data cleaning
+│   │   ├── data/ (confirmed cases & cleaned series)
+│   │   └── plots/
+│   ├── level-2-orange-placement-salary-prediction/ # 💼 Orange Problem (Level 2)
 │   │   ├── Job_Placement_Salary_Analysis.ipynb   # Academic score correlation with CTC / placement
 │   │   ├── Placement_Analysis_Report.docx
 │   │   ├── data/ (train.csv)
 │   │   └── plots/ (Heatmaps, Q-Q plots, boxplots, regression visualizations)
-│   └── covid19-time-series-banana/               # 🦠 Banana Problem Time-Series
-│       ├── Covid19_Time_Series_Analysis.ipynb    # Pandemic trajectory & data cleaning
-│       ├── data/ (confirmed cases & cleaned series)
-│       └── plots/
+│   └── final-project-bmw-sales-datathon/         # 🚗 Datathon Final Project
+│       ├── BMW_Sales_Analysis_and_Modeling.ipynb # End-to-end data processing, EDA & price regression
+│       ├── BMW_Sales_Datathon_Report.pdf         # Comprehensive project findings & business insights
+│       ├── BMW_Sales_Problem_Statement.docx
+│       └── data/ (BMW-sales-data.csv)
 │
 ├── curriculum-documents/                         # Course lab manual and assignment guidelines
 ├── .gitignore
@@ -63,17 +63,18 @@ applied-statistics-data-science-mcse/
 
 ## 🛠️ Key Case Studies & Projects
 
-### 1. 🚗 BMW Global Sales Analysis (Datathon)
-- **Objective**: Identify the primary drivers of automotive resale valuations and regional market preferences using historical BMW transaction records.
-- **Methodology**: Extensive feature transformation, categorical encoding, multi-collinearity checks via heatmap correlation, and linear regression modeling.
-- **Deliverables**: Complete analysis notebook and peer-reviewed Datathon submission report (`.pdf`).
+### 1. 🦠 Level 1: COVID-19 Time-Series Modeling (Banana Problem)
+- **Objective**: Clean and standardize non-stationary epidemiological reporting across international health agencies, handling null values, outlier artifacts, and cumulative series.
+- **Deliverables**: Time-series progression curves, trend plots, and clean datasets.
 
-### 2. 💼 Campus Placement & Salary Prediction (Orange Level)
+### 2. 💼 Level 2: Campus Placement & Salary Prediction (Orange Problem)
 - **Objective**: Evaluate how secondary, higher secondary, and undergraduate academic performance correlates with campus placement probability and starting salary (CTC).
 - **Techniques**: Normality verification through Q-Q plots, IQR-based outlier trimming, and regression modeling.
 
-### 3. 🦠 COVID-19 Time-Series Modeling (Banana Level)
-- **Objective**: Clean and standardize non-stationary epidemiological reporting across international health agencies, handling null values and cumulation artifacts.
+### 3. 🚗 Final Project: BMW Global Sales Analysis (Datathon)
+- **Objective**: Identify the primary drivers of automotive resale valuations and regional market preferences using historical BMW transaction records.
+- **Methodology**: Extensive feature transformation, categorical encoding, multi-collinearity checks via heatmap correlation, and linear regression modeling.
+- **Deliverables**: Complete analysis notebook and peer-reviewed Datathon submission report (`.pdf`).
 
 ---
 
